@@ -1,0 +1,288 @@
+Templates (oc new-app --template=<template>)
+-----
+amq62-basic
+  Project: openshift
+  Application template for JBoss A-MQ brokers. These can be deployed as standalone or in a mesh. This template doesn't feature SSL support.
+amq62-persistent
+  Project: openshift
+  Application template for JBoss A-MQ brokers. These can be deployed as standalone and use persistent storage for saving messages. This template doesn't feature SSL support.
+amq62-persistent-ssl
+  Project: openshift
+  Application template for JBoss A-MQ brokers. These are deployed as standalone and use persistent storage for saving messages. This template supports SSL and requires usage of OpenShift secrets.
+amq62-ssl
+  Project: openshift
+  Application template for JBoss A-MQ brokers. These can be deployed as standalone or in a mesh. This template supports SSL and requires usage of OpenShift secrets.
+cakephp-example
+  Project: openshift
+  An example CakePHP application with no database
+cakephp-mysql-example
+  Project: openshift
+  An example CakePHP application with a MySQL database
+dancer-example
+  Project: openshift
+  An example Dancer application with no database
+dancer-mysql-example
+  Project: openshift
+  An example Dancer application with a MySQL database
+datagrid65-basic
+  Project: openshift
+  Application template for JDG 6.5 applications.
+datagrid65-https
+  Project: openshift
+  Application template for JDG 6.5 applications.
+datagrid65-mysql
+  Project: openshift
+  Application template for JDG 6.5 and MySQL applications.
+datagrid65-mysql-persistent
+  Project: openshift
+  Application template for JDG 6.5 and MySQL applications with persistent storage.
+datagrid65-postgresql
+  Project: openshift
+  Application template for JDG 6.5 and PostgreSQL applications built using.
+datagrid65-postgresql-persistent
+  Project: openshift
+  Application template for JDG 6.5 and PostgreSQL applications with persistent storage.
+decisionserver62-amq-s2i
+  Project: openshift
+  Application template for BRMS Realtime Decision Server 6 A-MQ applications built using S2I.
+decisionserver62-basic-s2i
+  Project: openshift
+  Application template for BRMS Realtime Decision Server 6 applications built using S2I.
+decisionserver62-https-s2i
+  Project: openshift
+  Application template for BRMS Realtime Decision Server 6 HTTPS applications built using S2I.
+django-example
+  Project: openshift
+  An example Django application with no database
+django-psql-example
+  Project: openshift
+  An example Django application with a PostgreSQL database
+eap64-amq-persistent-s2i
+  Project: openshift
+  Application template for EAP 6 A-MQ applications with persistent storage built using S2I.
+eap64-amq-s2i
+  Project: openshift
+  Application template for EAP 6 A-MQ applications built using S2I.
+eap64-basic-s2i
+  Project: openshift
+  Application template for EAP 6 applications built using S2I.
+eap64-https-s2i
+  Project: openshift
+  Application template for EAP 6 applications built using S2I.
+eap64-mongodb-persistent-s2i
+  Project: openshift
+  Application template for EAP 6 MongoDB applications with persistent storage built using S2I.
+eap64-mongodb-s2i
+  Project: openshift
+  Application template for EAP 6 MongoDB applications built using S2I.
+eap64-mysql-persistent-s2i
+  Project: openshift
+  Application template for EAP 6 MySQL applications with persistent storage built using S2I.
+eap64-mysql-s2i
+  Project: openshift
+  Application template for EAP 6 MySQL applications built using S2I.
+eap64-postgresql-persistent-s2i
+  Project: openshift
+  Application template for EAP 6 PostgreSQL applications with persistent storage built using S2I.
+eap64-postgresql-s2i
+  Project: openshift
+  Application template for EAP 6 PostgreSQL applications built using S2I.
+eap64-sso-s2i
+  Project: openshift
+  Application template for EAP 6 applications built using S2I, enabled for SSO.
+eap70-basic-s2i
+  Project: openshift
+  Application template for EAP 7 applications built using S2I.
+eap70-https-s2i
+  Project: openshift
+  Application template for EAP 7 applications built using S2I.
+eap70-mongodb-persistent-s2i
+  Project: openshift
+  Application template for EAP 7 MongoDB applications with persistent storage built using S2I.
+eap70-mongodb-s2i
+  Project: openshift
+  Application template for EAP 7 MongoDB applications built using S2I.
+eap70-mysql-persistent-s2i
+  Project: openshift
+  Application template for EAP 7 MySQL applications with persistent storage built using S2I.
+eap70-mysql-s2i
+  Project: openshift
+  Application template for EAP 7 MySQL applications built using S2I.
+eap70-postgresql-persistent-s2i
+  Project: openshift
+  Application template for EAP 7 PostgreSQL applications with persistent storage built using S2I.
+eap70-postgresql-s2i
+  Project: openshift
+  Application template for EAP 7 PostgreSQL applications built using S2I.
+jenkins-ephemeral
+  Project: openshift
+  Jenkins service, without persistent storage. WARNING: Any data stored will be lost upon pod destruction. Only use this template for testing
+jenkins-persistent
+  Project: openshift
+  Jenkins service, with persistent storage.  You must have persistent volumes available in your cluster to use this template.
+jws30-tomcat7-basic-s2i
+  Project: openshift
+  Application template for JWS applications built using S2I.
+jws30-tomcat7-https-s2i
+  Project: openshift
+  Application template for JWS applications built using S2I.
+jws30-tomcat7-mongodb-persistent-s2i
+  Project: openshift
+  Application template for JWS MongoDB applications with persistent storage built using S2I.
+jws30-tomcat7-mongodb-s2i
+  Project: openshift
+  Application template for JWS MongoDB applications built using S2I.
+jws30-tomcat7-mysql-persistent-s2i
+  Project: openshift
+  Application template for JWS MySQL applications with persistent storage built using S2I.
+jws30-tomcat7-mysql-s2i
+  Project: openshift
+  Application template for JWS MySQL applications built using S2I.
+jws30-tomcat7-postgresql-persistent-s2i
+  Project: openshift
+  Application template for JWS PostgreSQL applications with persistent storage built using S2I.
+jws30-tomcat7-postgresql-s2i
+  Project: openshift
+  Application template for JWS PostgreSQL applications built using S2I.
+jws30-tomcat8-basic-s2i
+  Project: openshift
+  Application template for JWS applications built using S2I.
+jws30-tomcat8-https-s2i
+  Project: openshift
+  Application template for JWS applications built using S2I.
+jws30-tomcat8-mongodb-persistent-s2i
+  Project: openshift
+  Application template for JWS MongoDB applications with persistent storage built using S2I.
+jws30-tomcat8-mongodb-s2i
+  Project: openshift
+  Application template for JWS MongoDB applications built using S2I.
+jws30-tomcat8-mysql-persistent-s2i
+  Project: openshift
+  Application template for JWS MySQL applications with persistent storage built using S2I.
+jws30-tomcat8-mysql-s2i
+  Project: openshift
+  Application template for JWS MySQL applications built using S2I.
+jws30-tomcat8-postgresql-persistent-s2i
+  Project: openshift
+  Application template for JWS PostgreSQL applications with persistent storage built using S2I.
+jws30-tomcat8-postgresql-s2i
+  Project: openshift
+  Application template for JWS PostgreSQL applications built using S2I.
+logging-deployer-template
+  Project: openshift
+  Template for deploying everything needed for aggregated logging. Requires cluster-admin 'logging-deployer' service account and 'logging-deployer' secret.
+metrics-deployer-template
+  Project: openshift
+  Template for deploying the required Metrics integration. Requires cluster-admin 'metrics-deployer' service account and 'metrics-deployer' secret.
+mongodb-ephemeral
+  Project: openshift
+  MongoDB database service, without persistent storage. WARNING: Any data stored will be lost upon pod destruction. Only use this template for testing
+mongodb-persistent
+  Project: openshift
+  MongoDB database service, with persistent storage.  Scaling to more than one replica is not supported.  You must have persistent volumes available in your cluster to use this template.
+mysql-ephemeral
+  Project: openshift
+  MySQL database service, without persistent storage. WARNING: Any data stored will be lost upon pod destruction. Only use this template for testing
+mysql-persistent
+  Project: openshift
+  MySQL database service, with persistent storage.  Scaling to more than one replica is not supported.  You must have persistent volumes available in your cluster to use this template.
+nodejs-example
+  Project: openshift
+  An example Node.js application with no database
+nodejs-mongodb-example
+  Project: openshift
+  An example Node.js application with a MongoDB database
+postgresql-ephemeral
+  Project: openshift
+  PostgreSQL database service, without persistent storage. WARNING: Any data stored will be lost upon pod destruction. Only use this template for testing
+postgresql-persistent
+  Project: openshift
+  PostgreSQL database service, with persistent storage.  Scaling to more than one replica is not supported.  You must have persistent volumes available in your cluster to use this template.
+rails-postgresql-example
+  Project: openshift
+  An example Rails application with a PostgreSQL database
+sso70-basic
+  Project: openshift
+  Application template for SSO 7.0
+sso70-mysql
+  Project: openshift
+  Application template for SSO 7.0 MySQL applications
+sso70-mysql-persistent
+  Project: openshift
+  Application template for SSO 7.0 MySQL applications with persistent storage
+sso70-postgresql
+  Project: openshift
+  Application template for SSO 7.0 PostgreSQL applications
+sso70-postgresql-persistent
+  Project: openshift
+  Application template for SSO 7.0 PostgreSQL applications with persistent storage
+
+Image streams (oc new-app --image-stream=<image-stream> [--code=<source>])
+-----
+fis-java-openshift
+  Project: openshift
+  Tracks:  registry.access.redhat.com/jboss-fuse-6/fis-java-openshift
+  Tags:    1.0, 1.0-10, 1.0-11, 1.0-12, latest
+fis-karaf-openshift
+  Project: openshift
+  Tracks:  registry.access.redhat.com/jboss-fuse-6/fis-karaf-openshift
+  Tags:    1.0, 1.0-10, 1.0-11, 1.0-12, latest
+jboss-amq-62
+  Project: openshift
+  Tracks:  registry.access.redhat.com/jboss-amq-6/amq62-openshift
+  Tags:    1.1, 1.1-2, 1.1-6, 1.2, latest
+jboss-datagrid65-openshift
+  Project: openshift
+  Tracks:  registry.access.redhat.com/jboss-datagrid-6/datagrid65-openshift
+  Tags:    1.2, 1.2-13, 1.2-18, 1.2-19, latest
+jboss-decisionserver62-openshift
+  Project: openshift
+  Tracks:  registry.access.redhat.com/jboss-decisionserver-6/decisionserver62-openshift
+  Tags:    1.2, 1.2-10, 1.2-17, 1.2-18, latest
+jboss-eap64-openshift
+  Project: openshift
+  Tracks:  registry.access.redhat.com/jboss-eap-6/eap64-openshift
+  Tags:    1.1, 1.1-2, 1.2, 1.3, latest
+jboss-eap70-openshift
+  Project: openshift
+  Tags:    1.3-Beta
+jboss-webserver30-tomcat7-openshift
+  Project: openshift
+  Tracks:  registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat7-openshift
+  Tags:    1.1, 1.1-2, 1.1-6, 1.2, latest
+jboss-webserver30-tomcat8-openshift
+  Project: openshift
+  Tracks:  registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat8-openshift
+  Tags:    1.1, 1.1-3, 1.1-7, 1.2, latest
+jenkins
+  Project: openshift
+  Tags:    1, latest
+mongodb
+  Project: openshift
+  Tags:    2.4, 2.6, latest
+mysql
+  Project: openshift
+  Tags:    5.5, 5.6, latest
+nodejs
+  Project: openshift
+  Tags:    0.10, latest
+perl
+  Project: openshift
+  Tags:    5.16, 5.20, latest
+php
+  Project: openshift
+  Tags:    5.5, 5.6, latest
+postgresql
+  Project: openshift
+  Tags:    9.2, 9.4, latest
+python
+  Project: openshift
+  Tags:    2.7, 3.3, 3.4, latest
+redhat-sso70-openshift
+  Project: openshift
+  Tags:    1.3-TP
+  Red Hat SSO 7.0
+ruby
+  Project: openshift
+  Tags:    2.0, 2.2, latest
+
